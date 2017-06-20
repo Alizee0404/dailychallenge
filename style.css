@@ -112,5 +112,22 @@ nav ul {
   float: left;
   margin-top: 25px;
 }
+#welcome{
+  background-color: #41A3C0;
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
 
+#welcome h4{
+ font-size: 50px;
+}
 
+<.feature,.defi{
+  border: 1px solid #F2F2F2;
+  background: #FAFAFA;
+  margin: 15px;
+  padding: 15px 0;
+  text-align: center;
+  width: 400px;
+}
