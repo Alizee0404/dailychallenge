@@ -33,18 +33,18 @@ p{
 }
 
 a { 
-  color: #29324B;
+  color: rgb(252, 210, 28);
 }
 
 a:hover {
   text-decoration: none;
-  color: rgb(225, 0, 152);
+  color: rgb(252, 210, 28);
 }
 
 #logo{
-  color: rgb(225, 0, 152);
-  font-size: 35px;
-  font-family: 'Pacifico', cursive;
+  color: rgb(252, 210, 28);
+  font-size: 50px;
+  font-family: 'Indie Flower', cursive;
   float: left;
   margin-left: 50px;
 }
@@ -54,22 +54,32 @@ a:hover {
 #baseline{
   background-color: #41A3C0;
   text-align: center;
-  background-size: cover;
+  height: 450px;
   padding: 150px;
   color: white;
-  text-shadow: 1px 1px 1px black;
+  background: url(pictures/wall-1408988819_white-circle-on-black-background.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  background-size: cover; 
+  color: #41A3C0;
+  text-shadow: 5px 5px #00;
+
 }
 
 #baseline h1 {
-  color: white;
   font-size: 50px;
+  color: rgb(252, 210, 28);
+}
+
+#baseline h2 {
+  font-size: 30px;
+  color: rgb(252, 210, 28);
 }
 
 #baseline a {
-  color: white;
   font-size: 30px;
   font-weight: lighter;
   text-decoration: none;
+  text-decoration: underline;
 }
 
 #baseline a:hover {
@@ -88,6 +98,7 @@ a:hover {
 
  #download{
   margin: 0 auto;
+  color: rgb(252, 210, 28);
   width: 90%;
   font-weight: bolder;
   display:flex;
@@ -98,6 +109,7 @@ a:hover {
  #apropos{
   margin: 0 auto;
   width: 80%;
+  color: rgb(252, 210, 28);
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
